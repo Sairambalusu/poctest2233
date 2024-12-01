@@ -8,8 +8,8 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
-
+ #vmImage: ubuntu-latest
+ name: 'selfpool'  
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
